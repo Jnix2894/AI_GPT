@@ -4,7 +4,7 @@ def fibonacci(n):
     for _ in range(n):
         seq.append(a)
         a, b = b, a+b
-return seq
+    return seq
 
 terms = 6
 print(fibonacci(terms)[-1])
